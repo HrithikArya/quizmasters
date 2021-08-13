@@ -1,6 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&family=Open+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Satisfy&display=swap");
-
+* {
+  margin: 0;
+  padding: 0;
+}
 #quiz-masters {
   font-family: "Arvo", serif;
   background: #011627;
@@ -144,4 +147,19 @@ p {
 /* add bg color to the active dot/circle */
 .active {
   background-color: #FF9F1C;
+}
+
+/* for responsiveness */
+
+@media (max-width:800px) {
+  .mySlides {
+    padding: 0;
+  }
+  .mySlidesContainer {
+    padding: 2rem;
+    padding-top: 7rem;
+  }
+  .next, .prev {
+    padding: 0.5rem;
+  }
 }
