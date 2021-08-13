@@ -156,6 +156,7 @@ p {
 
   .slideshow-container h1 {
     margin-left: 2rem;
+    width: 50%
   }
   .slideshow-container {
     max-width: 100%;
